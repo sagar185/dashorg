@@ -18,11 +18,11 @@ import PrizeList from'./components/Oraginser/Prize/PrizeList'
 import WinnerCreate from'./components/Oraginser/Winners/WinnerCreate'
 import WinnerEdit from'./components/Oraginser/Winners/WinnerEdit'
 import WinnerList from'./components/Oraginser/Winners/WinnerList'
-/*
+
 import UserCreate from'./components/Partincipate/UserCreate'
 import UserEdit from'./components/Partincipate/UserEdit'
 import UserList from'./components/Partincipate/UserList'
-*/
+
 
 function App() {
 
@@ -33,7 +33,7 @@ function App() {
        <Resource name="Event"list={EventList} edit={EventEdit} create={EventCreate} exact/> 
        <Resource name="Prize"list={PrizeList} edit={PrizeEdit} create={PrizeCreate} exact/>
        <Resource name="Winner"list={WinnerList} edit={WinnerEdit} create={WinnerCreate} exact/>
-
+         <Resource name="Winner"list={UserList} edit={UserEdit} create={UserCreate} exact/>
 
       
      </Admin>
